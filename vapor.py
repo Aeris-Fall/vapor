@@ -194,3 +194,5 @@ if __name__ == '__main__':
         sys.stderr.write("\nPlease input valid kmer length ({} to {}) \n \n".format(min_kmer, max_kmer))
         parser.print_help(sys.stderr)
         sys.exit(1)
+        
+ print('Here is the difference')
